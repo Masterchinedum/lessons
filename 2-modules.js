@@ -8,6 +8,10 @@
 //     console.log(`Hello there ${name}`);
 // }
 
-sayHi('susan')
-sayHi(john)
-sayHi(peter)
+// sayHi('susan')
+// sayHi(john)
+// sayHi(peter)
+const name = require('./3-names')
+const sayHi = require('./4-utils')
+
+console.log(name.peter)
