@@ -14,4 +14,7 @@
 const name = require('./3-names')
 const sayHi = require('./4-utils')
 
-console.log(name.peter)
+// console.log(name.peter)
+sayHi('susan')
+sayHi(name.john)
+sayHi(name.peter)
